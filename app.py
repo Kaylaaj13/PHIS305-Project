@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot 
+import matplotlib.pyplot as plt
 
 st.title(" High Blood Pressure Interactive Dashboard")
 
