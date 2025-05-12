@@ -8,7 +8,7 @@ st.title(" High Blood Pressure Interactive Dashboard")
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 if uploaded_file is not None:
     st.write("File uploaded...")
-    df = pd.read_csv(sample_high_bp_data.csv)
+    df = pd.read_csv(uploaded_file)
 
     st.subheader("Data Preview")
     st.write(df.head())
